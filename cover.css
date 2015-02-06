@@ -77,3 +77,11 @@ body {
     background-color: crimson;
     font-size: 48px;
 }
+
+.box.sponsor {
+    max-width: 33%;
+}
+
+.box img {
+width: 100%;
+}
