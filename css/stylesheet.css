@@ -1,15 +1,20 @@
-a, a:focus, a:hover {
-  color: #fff;
+a {
+  color: white;
+}
+a:focus, a:hover {
+  color: white;
 }
 
 a.btn {
   background-color: #d6264f;
-  font-size: 48px;
+  font-size: 3em;
   margin: 2px;
   color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  text-shadow: none;
+}
+
+a.btn:hover {
+  background-color: rgba(214, 38, 79, 0.80)
 }
 
 body {
@@ -46,10 +51,12 @@ img.corner_image {
   top: 0px;
   left: 0px;
   width: 10%;
+  min-width: 100px;
 }
 
 img.logo_image {
-  width: 50%;
+  width: auto;
+  max-width: 75%;
 }
 
 p {
