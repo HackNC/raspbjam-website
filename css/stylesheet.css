@@ -1,12 +1,12 @@
 a {
-  color: white;
+  color: #95E495;;
 }
 a:focus, a:hover {
   color: white;
 }
 
 a.btn {
-  background-color: #d6264f;
+  background-color: #60b22e;
   font-size: 3em;
   margin: 2px;
   color: #333;
@@ -40,6 +40,10 @@ div.row {
 
 div.row:nth-child(even) {
   background-color: #d6264f;
+}
+
+div#sponsors {
+  background-color: #60b22e;
 }
 
 h1, h2, h3, h4, h5 {
