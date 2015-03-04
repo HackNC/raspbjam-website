@@ -33,6 +33,10 @@ div.fullheight {
   min-height: 100%;
 }
 
+div.photogallery img {     
+  max-height: 20em;
+}
+
 div.row {
   padding: 100px 10px 100px 10px;
   text-align: center;
