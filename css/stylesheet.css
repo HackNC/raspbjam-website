@@ -23,6 +23,10 @@ body {
   background-color: #333;
 }
 
+div.container-fluid > div.row:nth-child(even) {
+    background-color: #d6264f;
+}
+
 div.col-centered{
     float: none;
     margin: 0 auto;
@@ -42,8 +46,8 @@ div.row {
   text-align: center;
 }
 
-div.row:nth-child(even) {
-  background-color: #d6264f;
+div#schedule > div > div {
+    padding: 5px;
 }
 
 div#sponsors {
