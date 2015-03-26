@@ -51,9 +51,13 @@ div#schedule > div > div {
 }
 
 div#sponsors {
-  background-color: #60b22e;
+  /*background-color: #60b22e;*/
 }
 
+div#sponsors img {
+    max-height: 10em;
+    padding: 1em;
+}
 h1, h2, h3, h4, h5 {
   font-family: 'Lobster', cursive;
 }
